@@ -4,17 +4,17 @@
 ## FACULTAD DE INGENIERÍA DE MINAS, GEOLOGÍA Y CIVIL
 ## ESCUELA PROFESIONAL DE INGENIERÍA DE SISTEMAS
 
-<img src="logo.webp" alt="Logo UNSCH" width="150">
+<img src="logo.webp" alt="Logo UNSCH" width="175">
 
 </center>
 
 ---
 
-**ASIGNATURA:** IS-489 Pruebas y Aseguramiento de Calidad de Software  
-**DOCENTE:** Ing. Lizbeth Jaico Quispe  
+**ASIGNATURA:** IS-489 Pruebas y Aseguramiento de Calidad de Software   
+**DOCENTE:** Ing. Lizbeth Jaico Quispe   
 **SEMESTRE:** 2026-I 
-**ESTUDIANTE:** Jhon Eymer Velarde Yllisca  
-**LABORATORIO:** Laboratorio 04: Trazabilidad entre Requisitos y Pruebas  
+**ESTUDIANTE:** Jhon Eymer Velarde Yllisca   
+**LABORATORIO:** Laboratorio 04: Trazabilidad entre Requisitos y Pruebas   
 
 ---
 ---
@@ -67,7 +67,11 @@ Para el desarrollo de esta guía de laboratorio se seleccionó la plataforma de 
 
 ## 3. MATRIZ DE TRAZABILIDAD DE REQUISITOS (RTM)
 
-A continuación se detalla la Matriz de Trazabilidad Completa que vincula las Historias de Usuario, sus Criterios de Aceptación, los Casos de Prueba (TC) diseñados, sus prioridades y los estados obtenidos tras la ejecución en el entorno de producción de Mercado Libre Perú:
+Para complementar la auditoría técnica y cumplir con las directrices de la guía de laboratorio, la matriz interactiva dinámica ha sido consolidada en una hoja de cálculo con el mapeo bidireccional exhaustivo de los artefactos de software:
+
+📊 **LINK DE LA MATRIZ EN GOOGLE SHEETS:** [https://docs.google.com/spreadsheets/d/1fxGIzm8F6u2azBklSr7MSwZP47xkDzWsoV2dNZey5hc/edit?usp=sharing]
+
+A continuación se detalla el cuadro resumen de la Matriz de Trazabilidad Completa que vincula las Historias de Usuario, sus Criterios de Aceptación, los Casos de Prueba (TC) diseñados, sus prioridades y los estados obtenidos tras la ejecución en el entorno de producción de Mercado Libre Perú:
 
 | ID HU | Criterio de Aceptación (CA) | ID Caso Prueba (TC) | Título del Caso de Prueba | Prioridad | Técnica QA | Resultado | Incidencia / Bug Asociado |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -131,6 +135,9 @@ Evidencia de la HU-02 del Libro de Reclamos, demostrando las sub-tasks en estado
 Captura del tablero del Sprint, donde se aprecia la distribución final de los artefactos QA: los casos ejecutados en la columna `Done` y los dos nuevos casos diseñados para mitigar los GAPs en la columna `To Do`.
 
 > 📸 **![alt text](image4.png)**
+
+---
+
 ## 7. CONCLUSIONES
 
 * **Garantía de Cobertura Total (QA Rigor):** La implementación de la Matriz de Trazabilidad de Requisitos (RTM) demostró ser una herramienta indispensable en proyectos de ingeniería de software. Permitir mapear en formato bidirectional (*forward* y *backward*) aseguró que ningún requisito legal o funcional del negocio quedara desprotegido, mitigando de forma temprana los riesgos de software antes del cierre del ciclo.
